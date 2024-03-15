@@ -28,6 +28,7 @@
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
                     <a class="no-underline hover:underline enlarge" href="/">Home</a>
                     <a class="no-underline hover:underline enlarge" href="/blog">Blog</a>
+                    <a class="no-underline hover:underline enlarge" href="/teamcomps">Team Comps</a>
                     @guest
                         <a class="no-underline hover:underline enlarge" href="{{ route('login') }}">{{ __('Login') }}</a>
                         @if (Route::has('register'))
@@ -37,7 +38,7 @@
                         <span>{{ Auth::user()->name }}</span>
 
                         <a href="{{ route('logout') }}"
-                           class="no-underline hover:underline"
+                           class="no-underline hover:underline enlarge"
                            onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
