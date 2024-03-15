@@ -41,13 +41,18 @@
                 By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
             </span>
 
-            <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
-                {{ $post->description }}
-            </p>
+            <div class="relative overflow-hidden max-h-30">
+                <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light post-description">
+                    {{ Str::limit($post->description, 200) }}
+                </p>
+                <div class="post-fade"></div>
+            </div>
 
-            <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
-                Keep Reading
-            </a>
+            <div class="py-6">
+                <a href="/blog/{{ $post->slug }}" class="uppercase bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+                    Keep Reading
+                </a>
+            </div>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
                 <span class="float-right">
@@ -70,7 +75,6 @@
                             type="submit">
                             Delete
                         </button>
-
                     </form>
                 </span>
             @endif
