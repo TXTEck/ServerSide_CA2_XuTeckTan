@@ -23,5 +23,6 @@ Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::get('/teamcomps', [\App\Http\Controllers\TeamCompController::class, 'index'])->name('teamcomps');
+Route::get('/teamcomps', [App\Http\Controllers\TeamCompController::class, 'index'])->name('teamcomps');
+
 
