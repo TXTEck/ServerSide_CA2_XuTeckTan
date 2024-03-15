@@ -51,6 +51,16 @@
         <img src="{{ asset('images/teams/punk2.jpg') }}" alt="Expanded Team Composition">
     </div>
 </div>
+
+<div class="team-comp">
+    <div class="team-comp-header" onclick="toggleDropdown(this)">
+        <img src="{{ asset('images/teams/disco1.jpg') }}">
+        <button class="team-comp-dropdown-arrow">&#9660;</button>
+    </div>
+    <div class="team-comp-details" style="display: none;">
+        <img src="{{ asset('images/teams/disco2.jpg') }}" alt="Expanded Team Composition">
+    </div>
+</div>
 <script>
 function toggleDropdown(element) {
     const details = element.nextElementSibling;
