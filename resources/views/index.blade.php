@@ -4,6 +4,7 @@
     <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
+                
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14 text-deep-shadow">
                     Rank Up in Teamfight Tactics
                 </h1>
@@ -44,7 +45,7 @@
 
     <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            The blogs will teach you about...
+            This blog will teach you about...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
