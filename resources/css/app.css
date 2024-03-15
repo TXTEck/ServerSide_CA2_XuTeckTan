@@ -6,10 +6,11 @@
 
 .background-image 
 {
-    background-image: url('https://cdn.pixabay.com/photo/2017/07/31/23/45/pen-2562078_960_720.jpg');
+    background-image: url('https://images.contentstack.io/v3/assets/blt76b5e73bfd1451ea/blt44c78119582ce0a1/655b148c2d2f231296f3a3ea/GameplayOverview_MODULE_03.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 600px;
 }
+

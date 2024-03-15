@@ -4,8 +4,8 @@
     <div class="background-image grid grid-cols-1 m-auto">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14 text-deep-shadow">
+                    Rank Up in Teamfight Tactics
                 </h1>
                 <a 
                     href="/blog"
@@ -18,20 +18,20 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img src="https://i.ytimg.com/vi/-Ukq9bxiu8M/maxresdefault.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
-            <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+            <h2 class="text-3xl font-extrabold text-black">
+                New To Teamfight Tactics? Here's What You Need To Know
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+            Teamfight Tactics is an autochess gamemode in League of Legends. It is a turn-based game that pits you against seven opponents, and the goal is to be the last one standing.
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                As a new player to Teamfight Tactics, you will need to know the basics of the game. This blog will help you understand the game and give you tips on how to win.
             </p>
 
             <a 
@@ -44,20 +44,20 @@
 
     <div class="text-center p-15 bg-black text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+            The blogs will teach you about...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Team Comps
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+            Item Builds
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            Early Game Strategies
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Augment Choices
         </span>
     </div>
 
