@@ -22,7 +22,7 @@
             <img src="https://i.ytimg.com/vi/-Ukq9bxiu8M/maxresdefault.jpg" width="700" alt="">
         </div>
 
-        <div class="m-auto sm:m-auto text-left w-4/5 block">
+        <div class="m-auto sm:m-auto text-left w-4/5 block ">
             <h2 class="text-3xl font-extrabold text-black">
                 New To Teamfight Tactics? Here's What You Need To Know
             </h2>
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="text-center p-15 bg-gradient-purple text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             This blog will teach you about...
         </h2>
@@ -97,5 +97,7 @@
         <div>
             <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
         </div>
+        
     </div>
+    
 @endsection
