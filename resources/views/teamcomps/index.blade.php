@@ -12,6 +12,16 @@
         <!-- Insert additional team comp details here -->
     </div>
 </div>
+<div class="team-comp">
+    <div class="team-comp-header" onclick="toggleDropdown(this)">
+        <img src="{{ asset('images/teams/spellweavers1.jpg') }}">
+        <button class="team-comp-dropdown-arrow">&#9660;</button>
+    </div>
+    <div class="team-comp-details" style="display: none;">
+        <img src="{{ asset('images/teams/spellweavers2.jpg') }}" alt="Expanded Team Composition">
+        <!-- Insert additional team comp details here -->
+    </div>
+</div>
 
 <script>
 function toggleDropdown(element) {
